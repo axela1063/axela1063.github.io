@@ -10,5 +10,7 @@ Taking the midterm was very hard, I struggled on some questions and other I foun
         #show-score :: String Number String Number -> Image 
 
 (a)show-score("Red Sox","Cardinals",5,5)
+
 (b)show-score("Red Sox",6,"Cardinals",4)
+
 (c)pick-flavor("Vanilla","Oreo","Mint")
