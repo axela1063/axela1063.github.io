@@ -21,4 +21,4 @@ place-image(BTR, 175, 200,place-image(WR, 500, 300, place-image(WR, 500, 100, RR
 ```
 The outcome is part of the puerto rican flag, except the triangle is not yet rotated and I haven't placed a star yet, this is the outcome of the code:
 
-![flag.image](/images/flag.png)
+![Flag.image](/images/Flag.png)
