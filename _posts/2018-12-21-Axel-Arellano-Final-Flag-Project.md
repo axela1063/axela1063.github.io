@@ -8,17 +8,12 @@ date: 2018-12-21
 
 ## Describe your program
 
--   What country did you design for? _then delete this instruction_
--   What grade do you expect? _then delete this instruction_
-
-<!--- Delete this comment and add your writing -->
+ The country I designed for is Puerto Rico, the grade I think I deserve is a 3. The reason I would give myself that grade is because I put in a lot of work 
 
 ## Current output
 
--   Insert an image that your program currently produces. _then delete this instruction_
-
 * * *
-![Flag](/images/final-flag.png)
+![Final-Flag](/images/final-flag.png)
 * * *
 
 ## Describe your process.
@@ -51,5 +46,31 @@ Insert 10-15 line code section here _then delete this instruction_
 ## Program code
 
 ```
-Insert entire program here _then delete this instruction_
+include image
+
+size = 100
+width = size * 3
+height = size * 2
+
+stripe-height = 1/5 * height
+
+
+RR = rectangle(width, height, "solid", "red")
+
+WR = rectangle(width, height / 5, "solid", "white")
+
+RRWR = place-image(WR, width / 5, height / 5, RR)
+
+BT = triangle(height, "solid", "blue")
+
+BTR = rotate(30, BT)
+WS = star(width / 8, "solid", "white")
+
+stripes = 
+  place-image(WR, width / 2, 0.3 * height, 
+    place-image(WR, width / 2, 0.7  * height, RR))
+    
+
+BTS = overlay-xy(BTR, 0, 0, stripes)
+WSBT = overlay-xy(WS, -30, -65, BTS)
 ```
