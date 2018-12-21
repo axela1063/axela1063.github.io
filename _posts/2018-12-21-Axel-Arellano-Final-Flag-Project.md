@@ -13,26 +13,27 @@ date: 2018-12-21
 ## Current output
 
 * * *
-![Final-Flag](/images/final-flag.png)
+![Final-Flag](/images/Final-flag.png)
 * * *
 
 ## Describe your process.
 
--   What questions, strategies, help from peers or teacher, or thinking got you to this point? _then delete this instruction_
-
-<!--- Delete this comment and add your writing -->
+ Making this flag was a lot of hard work because making the rectangles the same distance from each other was hard. Making the flag equal proportion based on the ratio was hard. I had a lot of questions like, how do I make the proprtions correctly? How can I add fractions to my old flag to make the sides equal?. My teacher helped me write the fractions, he also helped me with the white rectangles.  
 
 
 ## Explain your code.
 
--   Choose a significant part of your program (15 lines max) and paste it below. Do not insert your entire program here. _then delete this instruction_
--   Explain each argument in the code section. _then delete this instruction_
--   Tell us how it functions independently and within the whole program _then delete this instruction_
-
+Below there is a part of code from my flag, the first part will function as a image placer. The name of the code is stripes, the name helps because we can later use the name instead of the whole code, the program knows that when you type stripes you are reffering to the code that went along with it. The function itself is both of the place-image line's, the basic function of what they do is they place the white rectangles onto the base rectangle(the red rectangle), it place's both of the white rectangles on top of the red base. Alone the code can not function, it needs the entire program to give the name's, WR(whiterectangle), and RR(redrectangle) value. As a whole, with the entire flag code, the place-image function will place the image of a red rectangle with two white rectangles onto it. The second part, both overlay lines, add a rotated triangle and a star onto stripes(the first part)
 * * *
 
 ```
-Insert 10-15 line code section here _then delete this instruction_
+stripes = 
+  place-image(WR, width / 2, 0.3 * height, 
+    place-image(WR, width / 2, 0.7  * height, RR))
+    
+
+BTS = overlay-xy(BTR, 0, 0, stripes)
+WSBT = overlay-xy(WS, -30, -65, BTS)
 ```
 
 * * *
